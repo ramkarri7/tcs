@@ -689,7 +689,7 @@ A _λ expression_ is either a single variable identifier or an expression $e$ of
 This might seem confusing at first, but in fact you have known recursive definitions since you were an elementary school student.
 Consider how we define an _arithmetic expression_: it is an expression that is either just a number, or has one of the forms $(e + e')$, $(e - e')$, $(e \times e')$, or $(e \div e')$, where $e$ and $e'$ are other arithmetic expressions.
 
-_Free and bound variables._ Variables in a λ expression can either be _free_ or _bound_ to a $\lambda$ operator (in the sense of [boundvarsec](){.ref}). In a single-variable λ expression $var$, the variable $var$ is free. The set of free and bound variables in an application expression $e = (e' \; e'')$ is the same as that of the underlying expressions $e'$ and $e''$. In an abstraction expression $e = \lambda var.(e')$, all free occurences of $var$ in $e'$ are bound to the $\lambda$ operator of $e$.
+_Free and bound variables._ Variables in a λ expression can either be _free_ or _bound_ to a $\lambda$ operator (in the sense of [boundvarsec](){.ref}). In a single-variable λ expression $var$, the variable $var$ is free. The set of free and bound variables in an application expression $e = (e' \; e'')$ is the same as that of the underlying expressions $e'$ and $e''$. In an abstraction expression $e = \lambda var.(e')$, all free occurrences of $var$ in $e'$ are bound to the $\lambda$ operator of $e$.
 If you find the notion of free and bound variables confusing, you can avoid all these issues by using unique identifiers for all variables.
 
 _Precedence and parenthesis._ We will use the following rules to allow us to drop some parenthesis.
