@@ -960,7 +960,7 @@ Our [GitHub repository](https://github.com/boazbk/tcscode) contains a "proof by 
 You might have heard of a term called "Turing Complete" that is sometimes used to describe programming languages. (If you haven't, feel free to ignore the rest of this remark: we define this term precisely in [chapequivalentmodels](){.ref}.)
 If so, you might wonder if the NAND-CIRC programming language has this property.
 The answer is __no__, or perhaps more accurately, the term "Turing Completeness" is not really applicable for the NAND-CIRC programming language.
-The reason is that, by design, the NAND-CIRC programming language can only compute _finite_ functions $F:\{0,1\}^n \rightarrow \{0,1\}^m$ that take a fixed number of input bits and produce a fixed number of outputs bits.
+The reason is that, by design, the NAND-CIRC programming language can only compute _finite_ functions $F:\{0,1\}^n \rightarrow \{0,1\}^m$ that take a fixed number of input bits and produce a fixed number of output bits.
 The term "Turing Complete" is only applicable to programming languages for _infinite_ functions that can take inputs of arbitrary length.
 We will come back to this distinction later on in this book.
 
