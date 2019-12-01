@@ -94,7 +94,7 @@ some_more_code
 ```
 
 and where `proc_code'` is obtained by replacing all occurrences of `a` with `d`, `b` with `e`, and `c` with `f`.
-When doing that we will need to ensure that all other variables appearing in `proc_code'` don't interfere with other variables.
+When doing that, we will need to ensure that all other variables appearing in `proc_code'` don't interfere with other variables.
 We can always do so by renaming variables to new names that were not used before.
 The above reasoning leads to the proof of the following theorem:
 
