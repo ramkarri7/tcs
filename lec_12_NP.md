@@ -450,7 +450,7 @@ We will add a "gadget" corresponding to each clause of $\varphi$ in a way that w
 We build a graph $G$ that "snakes" from $s$ to $t$ as follows.
 After $s$ we add a sequence of $n$ long loops.
 Each loop has an "upper path" and a "lower path".
-A simple path cannot take both the upper path and the lower path, and so it will need to take exactly one of them to reach $s$ from $t$.
+A simple path cannot take both the upper path and lower path, and so it will need to take exactly one of them to reach $s$ from $t$.
 
 Our intention is that a path in the graph will correspond to an assignment $x\in \{0,1\}^n$ in the sense that taking the upper path in the $i^{th}$ loop corresponds to assigning $x_i=1$ and taking the lower path corresponds to assigning $x_i=0$.
 When we are done snaking through all the $n$  loops corresponding to the variables to reach $t$ we need to pass through $m$ "obstacles":
